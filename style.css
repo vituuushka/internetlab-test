@@ -45,6 +45,7 @@ body {
   height: 960px;
   background-image: url(./assets/images/header-bg.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .background-blue {
   height: 960px;
@@ -189,6 +190,7 @@ body {
 }
 .third-block-text {
   width: 592px;
+  height: 198px;
 }
 .third-block-title {
   width: 592px;
@@ -309,4 +311,97 @@ body {
   font-weight: 400;
   line-height: 32px;
   padding: 28px 0;
+}
+
+/* 768px */
+
+@media (max-width: 768px) {
+  .header.container {
+    max-width: 768px;
+    padding: 0 17px;
+  }
+  .container {
+    max-width: 768px;
+    padding: 0 20px;
+  }
+  .header {
+    height: 1024px;
+    background-image: url(./assets/images/header-bg-768.png);
+  }
+  .background-blue {
+    height: 1024px;
+  }
+  .header-items {
+    display: none;
+  }
+  .header-text {
+    margin-top: 317px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+  }
+  .header-title {
+    font-size: 32px;
+    line-height: 40px;
+    width: 476px;
+    height: 80px;
+  }
+  .header-subtitle {
+    font-size: 16px;
+    line-height: 28px;
+    width: 476px;
+  }
+  .second-block {
+    margin-top: 56px;
+    margin-bottom: 71px;
+  }
+  .second-block-items {
+    flex-wrap: wrap;
+  }
+  .second-block-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 342px;
+    height: 76px;
+  }
+  .second-item-img {
+    height: 56px;
+    width: 56px;
+  }
+  .third-block-text {
+    width: 352px;
+    height: 235px;
+  }
+  .third-block-title {
+    width: 352px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .third-block-subtitle {
+    margin-top: 15px;
+    width: 352px;
+  }
+  .third-block {
+    margin-bottom: 71px;
+  }
+  .third-block-images,
+  .third-block-image,
+  .third-block-car {
+    width: 351px;
+    height: 265px;
+  }
+  .reviews {
+    padding-top: 33px;
+    margin-bottom: 40px;
+  }
+  .reviews-item-none,
+  .slider-none {
+    display: none;
+  }
+  .reviews-items {
+    column-gap: 24px;
+  }
 }
