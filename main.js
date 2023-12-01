@@ -1,0 +1,10 @@
+document.querySelector('.burger-button').addEventListener('click', function(){
+    this.classList.toggle('active')
+    document.querySelector('.nav').classList.toggle('open')
+    document.querySelector('.burger-menu').classList.toggle('active')
+    document.querySelector('.header-icon').classList.toggle('active')
+    document.querySelector('.arrow-1').classList.toggle('active')
+    document.querySelector('.arrow-2').classList.toggle('active')
+    document.querySelector('.arrow-3').classList.toggle('active')
+    document.querySelector('.arrow-4').classList.toggle('active')
+})
